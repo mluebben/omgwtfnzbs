@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<de.luebben.omgwtfnzbs.NzbItemView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="86dp"
+    android:paddingBottom="3dp"
+    android:paddingTop="3dp"
+    android:paddingLeft="3dp"
+    android:paddingRight="3dp"
+    android:background="?android:attr/activatedBackgroundIndicator"
+    android:descendantFocusability="blocksDescendants">
+
+
+
+
+        <TextView
+            android:id="@+id/release"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:gravity="start|center"
+            android:textStyle="bold"
+            android:text="test" />
+
+
+
+        <TextView android:id="@+id/group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/sizebytes"
+            android:layout_below="@id/release"
+
+            android:layout_marginEnd="5dp"
+            android:textColor="#A0A0A0"
+            android:textSize="9sp"
+            android:textStyle="normal"
+
+            android:gravity="start|center"
+
+
+
+
+            android:text="group"/>
+
+
+        <TextView android:id="@+id/sizebytes"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+
+            android:layout_toStartOf="@+id/cattext"
+            android:layout_below="@id/release"
+            android:layout_marginEnd="5dp"
+
+            android:padding="3dp"
+            android:textIsSelectable="false"
+            android:gravity="end|center"
+
+            android:textColor="#A0A0A0"
+            android:textSize="9sp"
+            android:textStyle="normal"
+
+
+
+            android:text="3735 MiB"
+
+            android:drawableStart="@drawable/ic_row_size" />
+
+
+
+        <TextView android:id="@+id/cattext"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+
+            android:layout_toStartOf="@+id/usenetage"
+            android:layout_below="@id/release"
+            android:layout_marginEnd="5dp"
+
+            android:padding="3dp"
+            android:textIsSelectable="false"
+            android:gravity="end|center_vertical"
+
+            android:textColor="#A0A0A0"
+            android:textSize="9sp"
+            android:textStyle="normal"
+
+            android:text="cattext"
+
+            android:drawableStart="@drawable/ic_row_category" />
+
+
+
+        <TextView android:id="@+id/usenetage"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+
+            android:layout_toStartOf="@+id/add_btn"
+            android:layout_below="@id/release"
+            android:layout_marginEnd="5dp"
+
+
+            android:padding="3dp"
+            android:textIsSelectable="false"
+            android:gravity="end|center_vertical"
+
+            android:textColor="#A0A0A0"
+            android:textSize="9sp"
+            android:textStyle="normal"
+
+
+            android:text="342d"
+
+            android:drawableStart="@drawable/ic_row_age" />
+
+
+
+
+
+        <ImageButton
+            android:id="@+id/add_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_row_add" />
+
+
+
+
+
+
+</de.luebben.omgwtfnzbs.NzbItemView>

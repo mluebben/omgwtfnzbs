@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="de.luebben.omgwtfnzbs.CategoryActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/cat_movies_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Filme"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/cat_movies_std_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Standard" />
+
+            <CheckBox
+                android:id="@+id/cat_movies_hd_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="High Definition" />
+
+            <CheckBox
+                android:id="@+id/cat_movies_dvd_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DVD" />
+
+            <CheckBox
+                android:id="@+id/cat_movies_other_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sonstige" />
+
+            <CheckBox
+                android:id="@+id/cat_tv_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Serien"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/cat_tv_std_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Standard" />
+
+            <CheckBox
+                android:id="@+id/cat_tv_hd_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="High Definition" />
+
+            <CheckBox
+                android:id="@+id/cat_tv_other_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sonstige" />
+
+
+            <CheckBox
+                android:id="@+id/cat_music_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Music"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/cat_music_mp3_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mp3" />
+
+            <CheckBox
+                android:id="@+id/cat_music_flac_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Flac" />
+
+            <CheckBox
+                android:id="@+id/cat_music_mvid_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Video" />
+
+            <CheckBox
+                android:id="@+id/cat_audiobook_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hörbücher" />
+
+            <CheckBox
+                android:id="@+id/cat_music_other_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sonstige" />
+
+            <CheckBox
+                android:id="@+id/cat_games_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spiele"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/cat_games_pc_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PC" />
+
+            <CheckBox
+                android:id="@+id/cat_games_mac_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mac" />
+
+            <CheckBox
+                android:id="@+id/cat_games_other_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sonstige" />
+
+            <CheckBox
+                android:id="@+id/cat_apps_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Anwendungen"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/cat_apps_pc_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PC" />
+
+            <CheckBox
+                android:id="@+id/cat_apps_mac_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mac" />
+
+            <CheckBox
+                android:id="@+id/cat_apps_linux_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Linux" />
+
+            <CheckBox
+                android:id="@+id/cat_apps_phone_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone" />
+
+            <CheckBox
+                android:id="@+id/cat_apps_other_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sonstige" />
+
+            <CheckBox
+                android:id="@+id/cat_xxx_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pornographie"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/cat_xxx_clips_std_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clips Standard" />
+
+            <CheckBox
+                android:id="@+id/cat_xxx_clips_hd_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clips High Definition" />
+
+            <CheckBox
+                android:id="@+id/cat_xxx_movies_std_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Movies Standard" />
+
+            <CheckBox
+                android:id="@+id/cat_xxx_movies_hd_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Movies High Definition" />
+
+            <CheckBox
+                android:id="@+id/cat_xxx_dvd_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DVD" />
+
+            <CheckBox
+                android:id="@+id/cat_xxx_other_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sonstige" />
+
+            <CheckBox
+                android:id="@+id/cat_other_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sonstiges"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/cat_other_ebooks_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="e-Books" />
+
+            <CheckBox
+                android:id="@+id/cat_other_extra_pars_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Extra PARs" />
+
+            <CheckBox
+                android:id="@+id/cat_other_other_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sonstiges" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

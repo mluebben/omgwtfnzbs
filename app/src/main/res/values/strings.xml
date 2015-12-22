@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Omgwtfnzbs.org</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_main">Omgwtfnzbs.org search</string>
+    <string name="title_activity_details">NZB Details</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="pref_omgwtfnzbs_settings_title">Omgwtfnzbs.org</string>
+    <string name="pref_omgwtfnzbs_username_title">Username</string>
+    <string name="pref_omgwtfnzbs_username_summary">Username</string>
+    <string name="pref_omgwtfnzbs_apikey_title">API Key</string>
+    <string name="pref_omgwtfnzbs_apikey_summary">Your API Key</string>
+    <string name="pref_omgwtfnzbs_developer_title">Developer</string>
+
+    <string name="pref_nzbget_settings_title">NZBGet</string>
+    <string name="pref_nzbget_url_title">URL</string>
+    <string name="pref_nzbget_url_summary">URL</string>
+    <string name="pref_nzbget_username_title">Username</string>
+    <string name="pref_nzbget_username_summary">Username</string>
+    <string name="pref_nzbget_password_title">Password</string>
+    <string name="pref_nzbget_password_summary">Password</string>
+</resources>

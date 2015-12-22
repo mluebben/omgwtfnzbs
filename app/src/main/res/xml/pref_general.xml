@@ -1,0 +1,55 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="pref_omgwtfnzbs_settings"
+        android:title="@string/pref_omgwtfnzbs_settings_title">
+
+        <EditTextPreference
+            android:key="omgwtfnzbs_username"
+            android:title="@string/pref_omgwtfnzbs_username_title"
+            android:selectAllOnFocus="true"
+            android:inputType="none"
+            android:singleLine="true"
+            android:maxLines="1" />
+
+        <EditTextPreference
+            android:key="omgwtfnzbs_apikey"
+            android:title="@string/pref_omgwtfnzbs_apikey_title"
+            android:selectAllOnFocus="true"
+            android:inputType="none"
+            android:singleLine="true"
+            android:maxLines="1" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref_nzbget_settings"
+        android:title="@string/pref_nzbget_settings_title">
+
+        <EditTextPreference
+            android:key="nzbget_url"
+            android:title="@string/pref_nzbget_url_title"
+            android:selectAllOnFocus="true"
+            android:inputType="textUri"
+            android:singleLine="true"
+            android:maxLines="1" />
+
+        <EditTextPreference
+            android:key="nzbget_username"
+            android:title="@string/pref_nzbget_username_title"
+            android:selectAllOnFocus="true"
+            android:inputType="none"
+            android:singleLine="true"
+            android:maxLines="1" />
+
+        <EditTextPreference
+            android:key="nzbget_password"
+            android:title="@string/pref_nzbget_password_title"
+            android:selectAllOnFocus="true"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:maxLines="1" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
